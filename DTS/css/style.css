@@ -25,9 +25,9 @@ a {
 }
 
 
-/*--------------------------------------------- header @cepu ----------------------------------------------------------------------------------------------*/
+/*--------------------------------------------- header @cepu ---------------------------------------------------------------------------------------------*/
 
- header {
+header {
     height: 120px;
     width: 100%;
     background-color: #fff;
@@ -36,14 +36,14 @@ a {
     top: 0;
     z-index: 1000;
     box-shadow: 2px 2px 2px rgb(100, 10, 100);
-} */
+}
 
-.container {
+*/ .container {
     width: 1100px;
     margin: 0 auto;
 }
 
-.text-logo{
+.text-logo {
     float: left;
     position: absolute;
     margin: 80px 60px;
@@ -62,13 +62,25 @@ a {
     position: relative;
 }
 
+
 /* The animation code untuk li @cepu*/
+
 @keyframes warna {
-  0%{letter-spacing: 10px;}
-  25%{letter-spacing: 8px;}
-  50% {letter-spacing: 6px ;}
-  75% {letter-spacing: 3px;}
-  100% {letter-spacing: 2px;}
+    0% {
+        letter-spacing: 10px;
+    }
+    25% {
+        letter-spacing: 8px;
+    }
+    50% {
+        letter-spacing: 6px;
+    }
+    75% {
+        letter-spacing: 3px;
+    }
+    100% {
+        letter-spacing: 2px;
+    }
 }
 
 .list-header li {
@@ -86,16 +98,20 @@ a {
     animation-iteration-count: 3;
     animation-direction: alternate-reverse;
     font-variant: petite-caps;
-} 
-
-.list-header li:hover{
-    font-size:50px;
 }
+
+.list-header li:hover {
+    font-size: 50px;
+}
+
+
 /*---------------------------------------------------akhir dari header-------------------------------------------------------------------------------------------*/
 
+
 /* ---------------------------------------Awal Banner @ardhika------------------------------ */
+
 .banner {
-    background-color: #ffadad;
+    background-color: rgb(160, 138, 219);
     padding: 150px 0 100px 0;
 }
 
@@ -137,6 +153,7 @@ span {
 }
 
 .slide-gambar {
+    margin-top: 100px;
     width: 50%;
 }
 
@@ -175,15 +192,21 @@ span {
 .judul a:active {
     background-color: #033b07;
 }
+
+
 /* ---------------------------------------------Akhir Banner @ardhika---------------------------------------------------- */
+
 
 /*--------------------------------------------- Konten Extra 1 @Rizal ------------------------------------------------------------  */
 
+
 /*container Extra1------------*/
-.container1{
+
+.container1 {
     width: 1100px;
     margin: 0 auto;
 }
+
 
 /*--------- Judul Extra ---------  */
 
@@ -223,7 +246,7 @@ span {
     font-size: 20px;
     margin: 0 50px;
     margin-top: 50px;
-    border-bottom: 10px solid rgb(241, 174, 174);
+    border-bottom: 10px solid rgb(160, 138, 219);
     text-shadow: 5px 5px 5px rgb(119, 98, 98);
 }
 
@@ -251,7 +274,7 @@ span {
     color: black;
     padding: 15px 15px;
     border: 3px solid;
-    border-color: rgb(241, 174, 174);
+    border-color: rgb(160, 138, 219);
     border-radius: 10px;
     font-size: 20px;
 }
@@ -318,111 +341,82 @@ http://www.justinaguilar.com/animations/css/animations.css */
 
 /*-------------------End animation ---------------------------------*/
 
+
 /* JANUAR */
+
 .containerj {
-  max-width:1170px;
-  width: 100%;
-  padding: 0 15px;
-  margin: 0 auto;
+    max-width: 1170px;
+    width: 100%;
+    padding: 0 15px;
+    margin: 0 auto;
 }
 
-.lesson-wrapper {    
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: #f7f7f7;
-  text-align: center;
+.lesson-wrapper {
+    margin-top: 30px;
+    padding-bottom: 150px;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: #f7f7f7;
+    text-align: center;
 }
 
 .headingj {
-  padding-top: 80px;
-  padding-bottom: 50px;
-  color: #5f5d60;
+    padding-top: 80px;
+    padding-bottom: 50px;
+    color: #5f5d60;
 }
 
 .headingj h1 {
-  font-weight: normal;
+    font-weight: normal;
 }
 
 .lesson {
-  float: left;
-  width: 25%;
+    float: left;
+    width: 25%;
 }
 
 .lesson-icon {
-  position: relative;
+    position: relative;
+}
+
+.in {
+    width: 75px;
+}
+
+.fb {
+    width: 75px;
+}
+
+.tw {
+    width: 75px;
+}
+
+.ig {
+    width: 75px;
 }
 
 .txt-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  font-size: 15px;
-  color: #b3aeb5;
+    width: 80%;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 15px;
+    color: #b3aeb5;
 }
 
 .clear {
-  clear: left;
+    clear: left;
 }
 
-/* Untuk Tablets */
-@media (max-width: 1000px) {
-  .lesson {
-    width: 50%;
-    margin-bottom: 50px;
-  }
-  
-  .headingj h1 {
-    font-size: 20px;
-  }
-}
 
-/* Untuk Smartphones */
-@media (max-width: 670px) {
-  .lesson {
-    width: 100%;
-  }
-}
 /* END JANUAR */
 
-/*LEBIH BAGUS KALO DI BUATIN FILE RESPONSIVE.CSS SENDIRI INI CUMA ISENG DOANG 
-KEPUTUSAN ADA DI KETUA MAU DI PAKE APA ENGGA */
 
-
-/*----------------------Responsive Web Design-----------------------*/
-
-
-/*----------untuk tablet----------*/
-
-@media all and (max-width: 1000px) {
-    /*----------Bagian Extra 1----------*/
-    .main-extra1 {
-        width: 80%;
-    }
-    .judul-extra1 h1 {
-        margin-bottom: 150px;
-    }
-}
-
-
-/*----------untuk smartphone----------*/
-
-@media only screen and (max-width: 670px) {
-    .main-extra1 {
-        width: 100%;
-    }
-    .judul-extra1 h1 {
-        margin-bottom: 150px;
-    }
-}
-
-
-/*----------------------Responsive Web Design-----------------------*/
 /*---------------------------------------------End Konten Extra 1 @Rizal ------------------------------------------------------------  */
 
 
 /*------------------------------------------------------------------------------awal footer @cepu-------------------------------------------------------------------*/
-footer{
+
+footer {
     position: relative;
     float: left;
     width: 100%;
@@ -433,7 +427,6 @@ footer{
     border-top: outset;
     box-shadow: 2px 2px 2px rgb(255, 0, 0);
 }
-
 
 div#footer-logo {
     width: 15%;
@@ -461,7 +454,7 @@ footer img {
     padding-top: 18px;
 }
 
-.footer-li ul{
+.footer-li ul {
     -webkit-border-vertical-spacing: initial;
     padding-top: 14px;
     text-decoration: blink;
@@ -471,7 +464,6 @@ footer img {
     -webkit-text-emphasis-color: red;
 }
 
-
 .footer-text {
     padding-top: 18px;
 }
@@ -480,4 +472,6 @@ footer img {
     text-decoration-color: aquamarine;
     text-transform: uppercase;
 }
+
+
 /*------------------------------------------------------------------------------akhir footer@cepu------------------------------------------------------------------*/
