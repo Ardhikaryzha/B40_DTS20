@@ -1,6 +1,74 @@
 /* Untuk Tablet */
 
 @media all and (max-width: 1000px) {
+/*-----------------------------------------------------------------------@cepu-----------------------------------------------------------*/
+    
+    header {
+        height: 120px;
+        width: 100%;
+        background-color: #fff;
+        position: relative;
+        opacity: 0.9;
+        top: 0;
+        z-index: 1000;
+        box-shadow: 2px 2px 2px rgb(100, 10, 100);
+    }
+
+    .container {
+        width: 100%;
+        margin: 0 auto;
+    }
+
+    .text-logo{
+        float: left;
+        position: absolute;
+        margin: 80px 60px;
+        font-variant-numeric: diagonal-fractions;
+        font-weight: 800;
+    }
+
+    .logo-header {
+        float: left;
+        margin: 20px 50px;
+    }
+
+    .logo-header img {
+        height: 80px;
+        width: 80px;
+        position: relative;
+    }
+
+    @keyframes warna {
+      0%{letter-spacing: 3px;}
+      25%{letter-spacing: 2.75px;}
+      50% {letter-spacing: 2px ;}
+      75% {letter-spacing: 1.5px;}
+      100% {letter-spacing: 1.3px;}
+    }
+
+
+    .list-header li {
+        text-shadow: 5px 5px 5px rgba(200, 0, 0, 0.7);
+        color: #000;
+        font-size: 16px;
+        float: right;
+        margin: 49px 20px;
+        font-weight: bold;
+        vertical-align: top;
+        letter-spacing: 2px;
+        animation-name: warna;
+        animation-duration: 4s;
+        padding-top: 11px;
+        animation-iteration-count: 3;
+        animation-direction: alternate-reverse;
+        font-variant: petite-caps;
+    } 
+
+    .list-header li:hover{
+        font-size:25px;
+    }
+/*------------------------------------------------------------------------@cepu---------------------------------------------------------*/
+
     .heading {
         width: max-content;
         font-size: 70px;
@@ -15,10 +83,148 @@
     }
 }
 
+/*------------------------------------------------------------------------------awal footer @cepu-------------------------------------------------------------------*/
+footer{
+    position: relative;
+    float: left;
+    width: 98.5%;
+    min-height: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    border-top: outset;
+    box-shadow: 2px 2px 2px rgb(255, 0, 0);
+}
+
+
+div#footer-logo {
+    width: 15%;
+    margin: 0;
+    padding: 0px;
+    float: left;
+}
+
+.footer-li {
+    float: left;
+    width: 25%;
+    font-size: 25px;
+    margin: auto;
+    padding: 0;
+}
+
+div#footer-li-2 {
+    font-size: 20px;
+}
+
+footer img {
+    width: 60px;
+    background: transparent;
+    padding-left: 50px;
+    padding-top: 18px;
+}
+
+.footer-li ul{
+    -webkit-border-vertical-spacing: initial;
+    padding-top: 14px;
+    text-decoration: blink;
+    -webkit-text-stroke-width: medium;
+    -webkit-text-emphasis: open red;
+    -webkit-text-emphasis-style: open;
+    -webkit-text-emphasis-color: red;
+}
+
+
+.footer-text {
+    padding-top: 18px;
+}
+
+#footer-li-1 {
+    text-decoration-color: aquamarine;
+    text-transform: uppercase;
+}
+/*------------------------------------------------------------------------------akhir footer@cepu------------------------------------------------------------------*/
+
 
 /*  Untuk Smartphone */
 
 @media all and (max-width: 670px) {
+    /*-----------------------------------------------------------------------@cepu-----------------------------------------------------------*/
+    
+    header {
+    height: 120px;
+    width: 100%;
+    background-color: #fff;
+    position: relative;
+    opacity: 0.9;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 2px 2px 2px rgb(100, 10, 100);
+
+    }
+
+    .container {
+        width: 50%;
+        margin: 0 0;
+    }
+
+    .text-logo{
+        float: left;
+        position: absolute;
+        margin: 70px 40px;
+        font-variant-numeric: diagonal-fractions;
+        font-weight: 800;
+    }
+
+    .logo-header {
+        float: left;
+        margin: 10px 25px;
+    }
+
+    .logo-header img {
+        height: 80px;
+        width: 80px;
+        position: relative;
+    }
+
+
+
+    @keyframes warna {
+      0%{letter-spacing: 3px;}
+      25%{letter-spacing: 2.75px;}
+      50% {letter-spacing: 2px ;}
+      75% {letter-spacing: 1.5px;}
+      100% {letter-spacing: 1.3px;}
+    }
+
+
+    .list-header li {
+        text-shadow: 5px 5px 5px rgba(200, 0, 0, 0.7);
+        color: #000;
+        font-size: 10px;
+        float: right;
+        margin: 0px 0px 0px 200px;
+        text-align: center;
+        font-weight: bold;
+        letter-spacing: 2px;
+        animation-name: warna;
+        animation-duration: 4s;
+        padding-top: 0px;
+        animation-iteration-count: 3;
+        animation-direction: alternate-reverse;
+        font-variant: petite-caps;
+        display: flex;
+    } 
+
+    a {
+    text-decoration: none;
+    margin-top: 10px;
+}
+    .list-header li:hover{
+        font-size:25px;
+    }
+/*------------------------------------------------------------------------@cepu---------------------------------------------------------*/
+
+
     .heading {
         width: max-content;
         font-size: 40px;
@@ -48,3 +254,64 @@
         text-decoration: none;
     }
 }
+
+/*------------------------------------------------------------------------------awal footer @cepu-------------------------------------------------------------------*/
+footer{
+    position: relative;
+    float: left;
+    width: 100%;
+    min-height: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    float: left;
+    border-top: outset;
+    box-shadow: 2px 2px 2px rgb(255, 0, 0);
+}
+
+
+div#footer-logo {
+    width: 15%;
+    margin: 0;
+    padding: 0px;
+    float: left;
+}
+
+.footer-li {
+    float: left;
+    width: 25%;
+    font-size: 18px;
+    margin: auto;
+    padding: 0;
+}
+
+div#footer-li-2 {
+    font-size: 18px;
+}
+
+footer img {
+    width: 50px;
+    background: transparent;
+    padding-left: 0px;
+    padding-top: 18px;
+}
+
+.footer-li ul{
+    -webkit-border-vertical-spacing: initial;
+    padding-top: 14px;
+    text-decoration: blink;
+    -webkit-text-stroke-width: medium;
+    -webkit-text-emphasis: open red;
+    -webkit-text-emphasis-style: open;
+    -webkit-text-emphasis-color: red;
+}
+
+
+.footer-text {
+    padding-top: 10px;
+}
+
+#footer-li-1 {
+    text-decoration-color: aquamarine;
+    text-transform: uppercase;
+}
+/*------------------------------------------------------------------------------akhir footer@cepu------------------------------------------------------------------*/
